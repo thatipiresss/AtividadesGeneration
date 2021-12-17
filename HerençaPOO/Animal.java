@@ -6,7 +6,7 @@ public class Animal {
 	private String tipoAnimal;
 	private String nome;
 	private int idade;
-	protected String som;
+	private String som;
 	private String acao;
 
 	

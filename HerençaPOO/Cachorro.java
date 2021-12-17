@@ -38,7 +38,7 @@ public class Cachorro extends Animal{
 	
 	public void imprimirInfo() {
 		System.out.println("\n O animal é um "+getTipoAnimal()+" de nome: "+getNome()+ " que tem "
-		+getIdade()+ " ano(s). \nO som que esse animal emite é: "+getSom()+ " e ele costuma "
-			+getAcao()+".\n\t\t *Outras características sobre o animal*\n Ele é de raça "+getRaca()+ " e tem a cor "+getCor()+".");
+		+getIdade()+ " ano(s). \nO som que esse animal emite é: '"+getSom()+ "' e ele costuma "
+			+getAcao()+".\nOutras características sobre o animal: \nRAÇA: "+getRaca()+ "; \nCOR: "+getCor()+";");
 	}
 }
